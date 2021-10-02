@@ -1,0 +1,16 @@
+{
+    "name": "ncut/lara_auto",
+    "description": "autoload classes",
+    "autoload": {
+        "psr-4": {
+            "Ncut\\LaraAuto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jing yuan chen",
+            "email": "3a732031@gm.student.ncut.edu.tw"
+        }
+    ],
+    "require": {}
+}
