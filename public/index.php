@@ -8,6 +8,9 @@ use Demo\Hello;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
+/*Carbon\Carbon*/
+use Carbon\Carbon;
+
 
 
 $world = new World();
@@ -26,4 +29,7 @@ $log->pushHandler(new StreamHandler('log/your.log', Logger::WARNING));
 // add records to the log
 $log->warning('Foo');
 $log->error('Bar');
+
+/*Carbon\Carbon*/
+printf("Now: %s", Carbon::now());
 
